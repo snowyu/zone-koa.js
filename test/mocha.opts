@@ -1,0 +1,8 @@
+--compilers coffee:coffeescript/register
+--require ./test/cfg.js
+--timeout 999000
+--ui bdd
+--growl
+--colors
+test/setup.coffee
+test/**/*-test.coffee
