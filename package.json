@@ -1,7 +1,7 @@
 {
   "name": "zone-koa",
   "description": "enable the zone.js to the each request of koa.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Riceball LEE",
     "email": "snowyu.lee@gmail.com",
