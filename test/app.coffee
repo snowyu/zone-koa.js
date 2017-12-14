@@ -9,10 +9,10 @@ expect    = chai.expect
 app.use (ctx, next)->
   req = ctx.req
   vSessionName = req.socket.remoteFamily + '|' + req.socket.remoteAddress + '|'+ req.socket.remotePort
-  if global.Zone
-    expect(Zone.current.name).to.be.equal vSessionName
-    vSession = Zone.current.get 'session'
-    expect(vSession).to.be.equal ctx
+  expect(global.Zone).to.be.exist
+  expect(Zone.current.name).to.be.equal vSessionName
+  vSession = Zone.current.get 'session'
+  expect(vSession).to.be.equal ctx
   start = new Date()
   await next()
   ms = new Date() - start

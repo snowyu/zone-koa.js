@@ -6,7 +6,7 @@ Each request as a zone session patch to Koa.
 
 * Nodejs v7.6.0 above
 * zone.js v0.8.5 above
-* koa v2.0.0 above
+* koa v2.4.1 above
 * (optional) coffeescript v2.0 alpha(coffeescript@next)
 
     npm install zone.js koa coffeescript@next
