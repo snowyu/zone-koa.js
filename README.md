@@ -44,5 +44,9 @@ app.use (ctx)->
 
 ## History
 
+## refs
 
-
+*  issue using async/await with [target ES2017](https://github.com/angular/zone.js/issues/740). with target ES2016 works good.
+* [async_hooks](https://github.com/nodejs/node/blob/master/doc/api/async_hooks.md) API on above Node@8.2.1
+  * [cls-hooked](https://github.com/jeff-lewis/cls-hooked) Continuation-Local Storage ( Hooked )
+  * [node-async-context](https://github.com/gms1/node-async-context)(based on typescript) a continuation local storage / asynchronous execution context for node.js via async_hooks
